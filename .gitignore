@@ -24,3 +24,6 @@ yarn-error.log*
 # Temporary Scripts
 server/*.py
 server/test*.js
+
+# Huge source dataset (already imported)
+server/temp_dict_repo/
