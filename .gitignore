@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build
+dist/
+build/
+
+# System
+.DS_Store
+.vscode/
+
+# Environmental
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database (Optional - Included by default as it is the core data ~8.5MB)
+# server/dictionary.db
+
+# Temporary Scripts
+server/*.py
+server/test*.js

@@ -1,0 +1,247 @@
+[
+    {
+        "lemma": "tebessüm",
+        "pos": "isim",
+        "definition": "Gülümseme."
+    },
+    {
+        "lemma": "melankoli",
+        "pos": "isim",
+        "definition": "Kara sevda, hüzün."
+    },
+    {
+        "lemma": "ihtimal",
+        "pos": "isim",
+        "definition": "Olasılık."
+    },
+    {
+        "lemma": "hakikat",
+        "pos": "isim",
+        "definition": "Gerçek, doğruluk."
+    },
+    {
+        "lemma": "zaman",
+        "pos": "isim",
+        "definition": "Bir işin, bir oluşun içinde geçtiği, geçeceği veya geçmekte olduğu süre, vakit."
+    },
+    {
+        "lemma": "edebiyat",
+        "pos": "isim",
+        "definition": "Olay, düşünce, duygu ve hayallerin dil aracılığıyla sözlü veya yazılı olarak biçimlendirilmesi sanatı."
+    },
+    {
+        "lemma": "felsefe",
+        "pos": "isim",
+        "definition": "Varlığın ve bilginin bilimsel olarak araştırılması."
+    },
+    {
+        "lemma": "muazzam",
+        "pos": "sıfat",
+        "definition": "Alışılmışın sınırlarını aşan büyüklükte olan, çok iri, kocaman."
+    },
+    {
+        "lemma": "hassasiyet",
+        "pos": "isim",
+        "definition": "Duyarlık."
+    },
+    {
+        "lemma": "tevafuk",
+        "pos": "isim",
+        "definition": "Birbirine denk gelme, uyma."
+    },
+    {
+        "lemma": "tevekkül",
+        "pos": "isim",
+        "definition": "Herhangi bir işte elinden geleni yapıp sonrasını Allah'a bırakma."
+    },
+    {
+        "lemma": "kanaat",
+        "pos": "isim",
+        "definition": "Elindekiyle yetinme durumu."
+    },
+    {
+        "lemma": "merhamet",
+        "pos": "isim",
+        "definition": "Bir kimsenin veya bir başka canlının karşılaştığı kötü durumdan duyulan üzüntü, acıma."
+    },
+    {
+        "lemma": "adalet",
+        "pos": "isim",
+        "definition": "Hak ve hukuka uygunluk, hakkı gözetme."
+    },
+    {
+        "lemma": "hürriyet",
+        "pos": "isim",
+        "definition": "Özgürlük."
+    },
+    {
+        "lemma": "istiklal",
+        "pos": "isim",
+        "definition": "Bağımsızlık."
+    },
+    {
+        "lemma": "medeniyet",
+        "pos": "isim",
+        "definition": "Uygarlık."
+    },
+    {
+        "lemma": "kültür",
+        "pos": "isim",
+        "definition": "Tarihsel, toplumsal gelişme süreci içinde yaratılan bütün maddi ve manevi değerler."
+    },
+    {
+        "lemma": "sanat",
+        "pos": "isim",
+        "definition": "Bir duygu, tasarı, güzellik vb.nin anlatımında kullanılan yöntemlerin tamamı veya bu anlatım sonucunda ortaya çıkan üstün yaratıcılık."
+    },
+    {
+        "lemma": "bilim",
+        "pos": "isim",
+        "definition": "Evrenin veya olayların bir bölümünü konu olarak seçen, deneye dayanan yöntemler ve gerçeklikten yararlanarak sonuç çıkarmaya çalışan düzenli bilgi."
+    },
+    {
+        "lemma": "teknoloji",
+        "pos": "isim",
+        "definition": "Bir sanayi dalı ile ilgili yapım yöntemlerini, kullanılan araç, gereç ve aletleri kapsayan bilgi."
+    },
+    {
+        "lemma": "inovasyon",
+        "pos": "isim",
+        "definition": "Yenilik, yenileşim."
+    },
+    {
+        "lemma": "girişimcilik",
+        "pos": "isim",
+        "definition": "Girişimci olma durumu."
+    },
+    {
+        "lemma": "liderlik",
+        "pos": "isim",
+        "definition": "Lider olma durumu, önderlik."
+    },
+    {
+        "lemma": "strateji",
+        "pos": "isim",
+        "definition": "İzlem, gütüm."
+    },
+    {
+        "lemma": "vizyon",
+        "pos": "isim",
+        "definition": "Görünüm, ülkü, ileri görüş."
+    },
+    {
+        "lemma": "misyon",
+        "pos": "isim",
+        "definition": "Görev, amaç."
+    },
+    {
+        "lemma": "motivasyon",
+        "pos": "isim",
+        "definition": "İsteklendirme, güdüleme."
+    },
+    {
+        "lemma": "iletişim",
+        "pos": "isim",
+        "definition": "Duygu, düşünce veya bilgilerin akla gelebilecek her türlü yolla başkalarına aktarılması."
+    },
+    {
+        "lemma": "empati",
+        "pos": "isim",
+        "definition": "Duygudaşlık."
+    },
+    {
+        "lemma": "sinerji",
+        "pos": "isim",
+        "definition": "Görevdaşlık."
+    },
+    {
+        "lemma": "performans",
+        "pos": "isim",
+        "definition": "Başarım."
+    },
+    {
+        "lemma": "kalite",
+        "pos": "isim",
+        "definition": "Nitelik."
+    },
+    {
+        "lemma": "verimlilik",
+        "pos": "isim",
+        "definition": "Verimli olma durumu."
+    },
+    {
+        "lemma": "sürdürülebilirlik",
+        "pos": "isim",
+        "definition": "Sürdürülebilir olma durumu, devamlılık."
+    },
+    {
+        "lemma": "global",
+        "pos": "sıfat",
+        "definition": "Küresel."
+    },
+    {
+        "lemma": "yerel",
+        "pos": "sıfat",
+        "definition": "Yöresel, mahalli, lokal."
+    },
+    {
+        "lemma": "dijital",
+        "pos": "sıfat",
+        "definition": "Sayısal."
+    },
+    {
+        "lemma": "analitik",
+        "pos": "sıfat",
+        "definition": "Çözümsel."
+    },
+    {
+        "lemma": "kreatif",
+        "pos": "sıfat",
+        "definition": "Yaratıcı."
+    },
+    {
+        "lemma": "estetik",
+        "pos": "isim",
+        "definition": "Güzellik duygusu ile ilgili olan."
+    },
+    {
+        "lemma": "minimalizm",
+        "pos": "isim",
+        "definition": "Sadecilik."
+    },
+    {
+        "lemma": "modern",
+        "pos": "sıfat",
+        "definition": "Çağdaş."
+    },
+    {
+        "lemma": "geleneksel",
+        "pos": "sıfat",
+        "definition": "Geleneğe dayanan, ananevi."
+    },
+    {
+        "lemma": "nostalji",
+        "pos": "isim",
+        "definition": "Geçmişe duyulan özlem."
+    },
+    {
+        "lemma": "ütopya",
+        "pos": "isim",
+        "definition": "Gerçekleştirilmesi imkânsız tasarı veya düşünce."
+    },
+    {
+        "lemma": "paradoks",
+        "pos": "isim",
+        "definition": "Aykırı düşünce, çelişki."
+    },
+    {
+        "lemma": "ironi",
+        "pos": "isim",
+        "definition": "Gülmece."
+    },
+    {
+        "lemma": "metafor",
+        "pos": "isim",
+        "definition": "Mecaz."
+    }
+]

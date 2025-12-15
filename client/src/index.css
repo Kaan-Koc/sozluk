@@ -1,0 +1,8 @@
+/* Tailwind CSS Directives - Bu satırlardaki uyarılar editör kaynaklıdır, kod çalışır durumdadır. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-lugat-bg text-gray-800 font-sans;
+}
