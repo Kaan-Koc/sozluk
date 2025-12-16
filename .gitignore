@@ -3,8 +3,8 @@ node_modules/
 package-lock.json
 
 # Build
-dist/
 build/
+
 
 # System
 .DS_Store
