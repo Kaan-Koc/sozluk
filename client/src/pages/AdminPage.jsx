@@ -56,7 +56,7 @@ function AdminPage() {
     const fetchUsers = async () => {
         try {
             const token = localStorage.getItem('adminToken');
-            const res = await fetch('http://localhost:3000/api/users', {
+            const res = await fetch('/api/users', {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
             if (res.ok) {
@@ -83,7 +83,7 @@ function AdminPage() {
     const confirmDeleteUser = async (id) => {
         try {
             const token = localStorage.getItem('adminToken');
-            const res = await fetch(`http://localhost:3000/api/users/${id}`, {
+            const res = await fetch(`/api/users/${id}`, {
                 method: 'DELETE',
                 headers: { 'Authorization': `Bearer ${token}` }
             });
@@ -104,8 +104,8 @@ function AdminPage() {
         setLoading(true);
         try {
             const url = query
-                ? `http://localhost:3000/api/words?search=${encodeURIComponent(query)}&limit=50`
-                : 'http://localhost:3000/api/words?limit=50';
+                ? `/api/words?search=${encodeURIComponent(query)}&limit=50`
+                : '/api/words?limit=50';
 
             const response = await fetch(url);
             if (!response.ok) throw new Error('Kelimeler alınamadı');
@@ -130,8 +130,8 @@ function AdminPage() {
         setModalLoading(true);
         try {
             const url = query
-                ? `http://localhost:3000/api/words?page=${pageNum}&limit=50&search=${encodeURIComponent(query)}`
-                : `http://localhost:3000/api/words?page=${pageNum}&limit=50`;
+                ? `/api/words?page=${pageNum}&limit=50&search=${encodeURIComponent(query)}`
+                : `/api/words?page=${pageNum}&limit=50`;
 
             const response = await fetch(url);
             const result = await response.json();
@@ -223,8 +223,8 @@ function AdminPage() {
         setError(null); // Clear previous global errors
         try {
             const url = editingId
-                ? `http://localhost:3000/api/words/${editingId}`
-                : 'http://localhost:3000/api/words';
+                ? `/api/words/${editingId}`
+                : '/api/words';
 
             const method = editingId ? 'PUT' : 'POST';
 
@@ -282,7 +282,7 @@ function AdminPage() {
         // Fetch full details including examples because list endpoint might not have them?
         // Actually list endpoint in index.js checks LIKE query or all, but default list usually doesn't join examples always?
         // Better to fetch fresh detail.
-        fetch(`http://localhost:3000/api/words/${word.id}`)
+        fetch(`/api/words/${word.id}`)
             .then(res => res.json())
             .then(data => {
                 setFormData({
@@ -301,7 +301,7 @@ function AdminPage() {
         // Direct delete (confirmation handled in UI)
         try {
             const token = localStorage.getItem('adminToken');
-            const response = await fetch(`http://localhost:3000/api/words/${id}`, {
+            const response = await fetch(`/api/words/${id}`, {
                 method: 'DELETE',
                 headers: { 'Authorization': `Bearer ${token}` }
             });
@@ -335,7 +335,7 @@ function AdminPage() {
         e.preventDefault();
         try {
             const token = localStorage.getItem('adminToken');
-            const response = await fetch('http://localhost:3000/api/users', {
+            const response = await fetch('/api/users', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

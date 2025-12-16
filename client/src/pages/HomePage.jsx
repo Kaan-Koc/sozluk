@@ -3,7 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Search, Shuffle, Clock } from 'lucide-react';
 import ReactDOM from 'react-dom';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = '/api';
+
 
 function HomePage() {
     const [words, setWords] = useState([]);

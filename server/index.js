@@ -11,8 +11,9 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// Serve static files from client directory
-app.use(express.static(path.join(__dirname, '../client')));
+// Serve static files from client/dist directory (Vite build output)
+app.use(express.static(path.join(__dirname, '../client/dist')));
+
 
 
 // Seed Admin User
@@ -589,6 +590,11 @@ app.get('/api/words/:id/similar', (req, res) => {
             });
         }
     });
+});
+
+// Catch-all route: serve index.html for all non-API routes (SPA routing)
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
 });
 
 app.listen(PORT, () => {
