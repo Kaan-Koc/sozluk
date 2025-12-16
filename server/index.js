@@ -14,6 +14,16 @@ app.use(bodyParser.json());
 // Serve static files from client/dist directory (Vite build output)
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
+// Health check endpoint
+app.get('/health', (req, res) => {
+    res.json({
+        status: 'OK',
+        timestamp: new Date().toISOString(),
+        staticPath: path.join(__dirname, '../client/dist')
+    });
+});
+
+
 
 
 // Seed Admin User
