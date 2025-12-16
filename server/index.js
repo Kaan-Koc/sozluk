@@ -1,14 +1,19 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const path = require('path');
 const db = require('./db');
 const bcrypt = require('bcryptjs');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(bodyParser.json());
+
+// Serve static files from client directory
+app.use(express.static(path.join(__dirname, '../client')));
+
 
 // Seed Admin User
 db.get("SELECT count(*) as count FROM users", [], (err, row) => {
