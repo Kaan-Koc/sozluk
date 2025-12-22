@@ -4,8 +4,9 @@
   "description": "Backend for Mini Lugat",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "seed": "node seed.js"
+    "start": "node seed.js && node index.js",
+    "seed": "node seed.js",
+    "dev": "node index.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
